@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           
+            body{
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                background-color: #17a2b8;
+                height: 100vh;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                width:  300px;
+
+            }
+            form > input{
+                margin-bottom: 20px;
+            }
+
+            form {
+             margin-top: 120px;
+             max-width: 600px;
+            height: 320px;
+            border: 1px solid #9C9C9C;
+            background-color: #EAEAEA;
+            }
+        form {
+             padding: 20px;
+            }
+        form {
+            
+             margin-top: 125px; /* spostain basso o in altro la finestra Accedi*/
+            }
+           </style>
+        </head>
+
+        <title>Accedi</title>
+        
+
+        <body>
+
+            <form action="login.php" method="POST">
+                <h2>Accedi</h2>
+
+                <label for="email">email</label>
+                <input type="text" name="email" id="email"required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+
+                <input type="submit" value="invia">
+                <br> 
+            </br>
+
+            <div class="text-danger">
+                
+             </div>
+            </form>
+
+
+            </body>
+
+            </html>

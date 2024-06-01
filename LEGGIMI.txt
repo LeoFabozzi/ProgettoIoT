@@ -1,0 +1,5 @@
+Per poter avviare correttamente la web application, installare XAMPP sul proprio PC e avviare i moduli Apache e MySQL. Poi, dall'interfaccia di XAMPP, cliccare su "Explorer" in modo da trovarsi nel percorso in cui è stato installato XAMPP.
+Trovare la cartella htdocs e importare al suo interno la cartella progettoiot che si trova nel repository (all'interno della cartella php_code).
+Successivamente, aprire il browser e recarsi all'indirizzo: http://localhost/phpmyadmin.
+Qui, importare il database contenuto nella cartella database, dove si trova il file SQL progettoiot.sql che rappresenta il nostro database.
+Infine, andare al seguente link: http://localhost/ProgettoIOT/. Collegare l'ESP32 al PC per caricarci il codice Arduino, per poi poter usare la web application.
